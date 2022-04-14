@@ -56,16 +56,16 @@ function btnPressed() {
   timing[3].innerText = night.options[night.selectedIndex].text;
 
   if (hour <= 12) {
-    document.getElementById("greetings").innerHTML = "Good Morning!"+": "+userName;
+    document.getElementById("greetings").innerHTML = "Good Morning!"+" "+userName;
   }
   if (hour >= 12 && hour < 16) {
-    document.getElementById("greetings").innerHTML = "Good Afternoon!"+": "+userName;
+    document.getElementById("greetings").innerHTML = "Good Afternoon!"+" "+userName;
   }
   if (hour >= 16 && hour < 19) {
-    document.getElementById("greetings").innerHTML = "Good Evening"+": "+userName;
+    document.getElementById("greetings").innerHTML = "Good Evening"+" "+userName;
   }
   if (hour >= 19 && hour <= 23) {
-    document.getElementById("greetings").innerHTML = "Good Night"+": "+userName;
+    document.getElementById("greetings").innerHTML = "Good Night"+" "+userName;
   }
 
 }
